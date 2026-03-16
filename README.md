@@ -2,20 +2,6 @@
 
 This project analyzes European Parliament debates using a large language model (LLM) pipeline to extract the main topic of each speech and then study topic patterns across political parties, years, and speakers. The workflow combines dataset filtering, structured LLM-based topic extraction, descriptive exploration, and bipartite network analysis. [file:2]
 
-## Group Members
-
-- Timo Philipse
-- Victor Carmona
-- Ioannis Chatzikos
-- Kristjana Prifti
-- Alvaro Buendia [file:2]
-
-## Course Information
-
-- **Course:** M2 – Natural Language Processing
-- **Assignment:** Final NLP Project
-- **Date:** 14/10/2025 [file:2]
-
 ## Project Overview
 
 The notebook uses the `RJuro/eu_debates` dataset from Hugging Face and focuses on speeches delivered in Spanish. It filters the data to the years 2020, 2021, and 2022, removes entries without a party label, and samples 1,000 speeches to make LLM extraction manageable. [file:2]
